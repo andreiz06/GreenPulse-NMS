@@ -1,0 +1,25 @@
+# Frontend & Agent (Node.js / React)
+node_modules/
+build/
+dist/
+npm-debug.log
+.env
+.env.local
+
+# Backend (Java / Spring Boot / Maven)
+target/
+*.class
+*.jar
+*.war
+.mvn/wrapper/maven-wrapper.jar
+
+# IDEs and OS Files (Setari locale)
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.DS_Store
+Thumbs.db
