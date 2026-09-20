@@ -10,30 +10,27 @@ Acest proiect a fost prezentat la *Sesiunea de Comunicări Științifice Studen�
 
 ### 1. Dashboard Principal
 Vedere de ansamblu asupra rețelei: stare globală CPU, RAM, procese active și detalii hardware.
-<img width="1842" height="720" alt="image" src="https://github.com/user-attachments/assets/41c126f5-436a-48d7-818e-854e201b31f2" />
-
+<img width="800" alt="image" src="https://github.com/user-attachments/assets/41c126f5-436a-48d7-818e-854e201b31f2" />
 
 ### 2. Grafice în Timp Real & Stocare
 Urmărirea evoluției sarcinii procesorului prin grafice dinamice și monitorizarea partițiilor.
-<img width="1473" height="510" alt="image" src="https://github.com/user-attachments/assets/dc020361-9387-4332-bd39-84ce631075fd" />
-<img width="1314" height="514" alt="image" src="https://github.com/user-attachments/assets/111c05d6-219d-4311-9a0b-24c5333c536f" />
-<img width="1802" height="795" alt="image" src="https://github.com/user-attachments/assets/25e3c828-afee-4ed2-845a-b9b1c92c0274" />
-
+<img width="800" alt="image" src="https://github.com/user-attachments/assets/dc020361-9387-4332-bd39-84ce631075fd" />
+<img width="800" alt="image" src="https://github.com/user-attachments/assets/111c05d6-219d-4311-9a0b-24c5333c536f" />
+<img width="800" alt="image" src="https://github.com/user-attachments/assets/25e3c828-afee-4ed2-845a-b9b1c92c0274" />
 
 ### 3. Sistem de Alerte (Toast Notifications)
 Notificări subtile, non-blocante, care apar instantaneu când un parametru (ex: RAM > 95%) depășește pragurile normale.
-<img width="858" height="266" alt="image" src="https://github.com/user-attachments/assets/fface281-1444-4d10-a52f-d1b2a52338b9" />
-<img width="812" height="205" alt="image" src="https://github.com/user-attachments/assets/da4c9364-857f-44e5-ab34-a1fdc7f8f40d" />
-<img width="1204" height="441" alt="image" src="https://github.com/user-attachments/assets/66c4d236-8426-4959-abfe-316a70f282af" />
-
+<img width="600" alt="image" src="https://github.com/user-attachments/assets/fface281-1444-4d10-a52f-d1b2a52338b9" />
+<img width="600" alt="image" src="https://github.com/user-attachments/assets/da4c9364-857f-44e5-ab34-a1fdc7f8f40d" />
+<img width="800" alt="image" src="https://github.com/user-attachments/assets/66c4d236-8426-4959-abfe-316a70f282af" />
 
 ---
 
 ## ⚙️ Arhitectura Sistemului (3-Tier)
 
 Sistemul este construit pe un flux de date clar: **Achiziție ➔ Transmisie ➔ Procesare ➔ Stocare ➔ Vizualizare**, structurat pe 3 niveluri principale:
-<img width="1398" height="833" alt="image" src="https://github.com/user-attachments/assets/b0417c8d-6bfb-4016-b3c9-d90b1d7239a3" />
-
+<br>
+<img width="800" alt="image" src="https://github.com/user-attachments/assets/b0417c8d-6bfb-4016-b3c9-d90b1d7239a3" />
 
 1. **Agentul de Colectare (Node.js & PowerShell)**
    * Instalat pe sistemele client, rulează în fundal cu impact minim.
