@@ -32,7 +32,8 @@ Notificări subtile, non-blocante, care apar instantaneu când un parametru (ex:
 ## ⚙️ Arhitectura Sistemului (3-Tier)
 
 Sistemul este construit pe un flux de date clar: **Achiziție ➔ Transmisie ➔ Procesare ➔ Stocare ➔ Vizualizare**, structurat pe 3 niveluri principale:
-<img width="1398" height="833" alt="image" src="https://github.com/user-attachments/assets/bacce13f-922b-46eb-b5a2-cfc044181fc0" />
+<img width="1398" height="833" alt="image" src="https://github.com/user-attachments/assets/b0417c8d-6bfb-4016-b3c9-d90b1d7239a3" />
+
 
 1. **Agentul de Colectare (Node.js & PowerShell)**
    * Instalat pe sistemele client, rulează în fundal cu impact minim.
