@@ -74,3 +74,28 @@ Navighează în folderul `backend` și pornește serverul (se va conecta automat
 cd backend
 ./mvnw spring-boot:run
 ```
+### 3. Frontend (Interfața Web)
+Într-un terminal nou, navighează în folderul `frontend`, instalează dependențele și pornește aplicația:
+```bash
+cd frontend
+npm install
+npm start
+```
+*Aplicația va fi disponibilă la `http://localhost:3000`.*
+### 4. Agentul de Colectare (Clientul Node.js)
+Într-un alt terminal, pornește scriptul de colectare care va începe să trimită date către serverul de pe portul 8080:
+```bash
+cd agent
+npm install
+node index.js
+```
+---
+
+## 💡 Provocări Tehnice Soluționate
+* **Blocaje OEM Hardware:** Sistemele anumitor producători ascund senzorii (ex: turația ventilatoarelor) de Windows WMI. Agentul a fost conceput să ruleze stabil și să raporteze `N/A` fără a întrerupe bucla de monitorizare atunci când întâmpină aceste restricții fizice.
+* **Optimizarea Traficului:** Frontend-ul menține o conexiune asincronă, iar agentul calculează sarcina CPU folosind diferența timpilor *idle* vs *activi* direct din nucleul OS-ului, pentru a reduce overhead-ul.
+
+## 🔭 Dezvoltări Viitoare
+* Autentificare bazată pe JWT pentru securizarea interfeței.
+* Raportare automată pe e-mail (PDF) pentru statistici lunare (Uptime, Incidente).
+* Portarea agentului pentru sisteme Linux/macOS folosind scripturi bash.
