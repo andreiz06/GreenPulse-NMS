@@ -67,3 +67,9 @@ Pentru a testa proiectul pe mașina locală, urmează acești pași:
 Navighează în directorul rădăcină și pornește containerul Docker:
 ```bash
 docker-compose up -d
+
+### 2. Backend (Serverul Java)
+Navighează în folderul `backend` și pornește serverul (se va conecta automat la PostgreSQL pe portul 5432):
+```bash
+cd backend
+./mvnw spring-boot:run
