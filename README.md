@@ -15,7 +15,10 @@ Vedere de ansamblu asupra rețelei: stare globală CPU, RAM, procese active și 
 
 ### 2. Grafice în Timp Real & Stocare
 Urmărirea evoluției sarcinii procesorului prin grafice dinamice și monitorizarea partițiilor.
-[ ! DRAG & DROP POZA CU GRAFICELE AICI - ex: slide 8 sau 9 din PPT ! ]
+<img width="1473" height="510" alt="image" src="https://github.com/user-attachments/assets/dc020361-9387-4332-bd39-84ce631075fd" />
+<img width="1314" height="514" alt="image" src="https://github.com/user-attachments/assets/111c05d6-219d-4311-9a0b-24c5333c536f" />
+<img width="1802" height="795" alt="image" src="https://github.com/user-attachments/assets/25e3c828-afee-4ed2-845a-b9b1c92c0274" />
+
 
 ### 3. Sistem de Alerte (Toast Notifications)
 Notificări subtile, non-blocante, care apar instantaneu când un parametru (ex: RAM > 95%) depășește pragurile normale.
@@ -29,6 +32,7 @@ Notificări subtile, non-blocante, care apar instantaneu când un parametru (ex:
 ## ⚙️ Arhitectura Sistemului (3-Tier)
 
 Sistemul este construit pe un flux de date clar: **Achiziție ➔ Transmisie ➔ Procesare ➔ Stocare ➔ Vizualizare**, structurat pe 3 niveluri principale:
+<img width="1398" height="833" alt="image" src="https://github.com/user-attachments/assets/bacce13f-922b-46eb-b5a2-cfc044181fc0" />
 
 1. **Agentul de Colectare (Node.js & PowerShell)**
    * Instalat pe sistemele client, rulează în fundal cu impact minim.
