@@ -19,7 +19,10 @@ Urmărirea evoluției sarcinii procesorului prin grafice dinamice și monitoriza
 
 ### 3. Sistem de Alerte (Toast Notifications)
 Notificări subtile, non-blocante, care apar instantaneu când un parametru (ex: RAM > 95%) depășește pragurile normale.
-[ ! DRAG & DROP POZA CU ALERTELE TOAST AICI - ex: slide 10 din PPT ! ]
+<img width="858" height="266" alt="image" src="https://github.com/user-attachments/assets/fface281-1444-4d10-a52f-d1b2a52338b9" />
+<img width="812" height="205" alt="image" src="https://github.com/user-attachments/assets/da4c9364-857f-44e5-ab34-a1fdc7f8f40d" />
+<img width="1204" height="441" alt="image" src="https://github.com/user-attachments/assets/66c4d236-8426-4959-abfe-316a70f282af" />
+
 
 ---
 
